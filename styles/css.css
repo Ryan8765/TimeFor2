@@ -160,6 +160,11 @@ html, body {
 	padding-bottom: 30px;
 }
 
+.contact a {
+	text-decoration: underline;
+	color:black;
+}
+
 
 /* Signup Form
 =====================================*/
