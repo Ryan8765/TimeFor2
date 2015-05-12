@@ -49,6 +49,14 @@ html, body {
 /* Classes
 =====================================*/
 
+.bold {
+	font-weight: 900;
+}
+
+.tag-line {
+	font-size:1.45em;
+}
+
 .friends {
 	text-align: right;
 	font-size: .7em;
@@ -66,6 +74,7 @@ html, body {
 	max-width: 800px;
 	margin-right:auto;
 	margin-left:auto;
+	text-align:center;
 }
 
 .lower-section {
@@ -73,7 +82,7 @@ html, body {
 }
 
 .mailchimp-form {
-	max-width: 400px;
+	max-width: 450px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -84,7 +93,7 @@ html, body {
 
 .background {
 	background-image: url(../images/background.jpg);
-	background-size: 100% 100%;
+	background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -149,6 +158,10 @@ html, body {
 	margin-bottom: 20px;
 }
 
+.social-media-sm {
+	display:none;
+}
+
 .clear:after {
   content: "";
   display: table;
@@ -172,6 +185,8 @@ html, body {
 .mailchimp-form input {
 	font-family: 'Montserrat', sans-serif !important;
 	border-radius:5px;
+	font-size:1.3em !important;
+	white-space: normal !important;
 }
 
 input#mc-embedded-subscribe {
@@ -179,9 +194,11 @@ input#mc-embedded-subscribe {
 	background-color: #56FE03 !important;
 	color:black !important;
 	border:2px solid white !important;
-	font-weight:bold;
+	font-weight:bolder;
 	margin-top: 10px !important;
 	margin-right:15px !important;
+	font-size:1.5em !important;
+	padding-bottom:4px !important;
 }
 
 input#mc-embedded-subscribe:hover {
@@ -195,3 +212,93 @@ div#mc_embed_signup {
 	padding-left:15px;
 	border-radius: 10px;
 }
+
+/* Media Queries 
+=====================================*/
+
+@media (max-width: 1200px) {
+	.friends {
+		text-align: center;
+	}
+
+	.tag-line {
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 1000px) {
+	.tag-line {
+		font-size: 1em;
+	}
+
+	.social-media {
+		top: 10%;
+	}
+
+	.reduced-width {
+		width:75%;
+	}
+}
+
+@media (max-width: 820px) {
+	.social-media {
+		top:5%;
+		right:10px;
+	}
+
+	h1, h2 {
+		font-size:1.4em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+
+}
+
+@media (max-width: 680px) {
+	.logo {
+		width:95%;
+		margin-right:auto;
+		margin-left:auto;
+		float:none;
+	}
+
+	.logo img {
+		margin-top: 2em;
+	}
+
+	.social-media {
+		display:none;
+	}
+
+	.social-media-sm {
+		display: block;
+		width:90%;
+		margin-left: auto;
+		margin-right:auto;
+		text-align: center;
+		margin-top:2em;
+	}
+
+	.social-media-sm li{
+		display:inline;
+	}
+
+	.friends-sm {
+		margin-top:1em;
+		display:block;
+		width:100%;
+		text-align: center;
+		font-size: .9em;
+	}
+
+	.tcycle {
+		max-width:98% !important;
+		margin-right:auto;
+		margin-left:auto;
+		float:none;
+		margin-top:2em;
+	}
+}
+
