@@ -187,6 +187,10 @@ html, body {
 /* Signup Form
 =====================================*/
 
+form#mc-embedded-subscribe-form {
+  padding-right: 10px !important;
+}
+
 .mailchimp-form input {
 	font-family: 'Montserrat', sans-serif !important;
 	border-radius:5px;
