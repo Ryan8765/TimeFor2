@@ -143,6 +143,11 @@ html, body {
 
 .tcycle img {
 	max-width:100%;
+	display:none;
+}
+
+.tcycle img.first {
+	display:block;
 }
 
 .social-media {
