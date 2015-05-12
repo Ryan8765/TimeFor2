@@ -28,8 +28,6 @@ h1 {
 	font-weight:bold;
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 2em;
-	margin-bottom: 3em;
 }
 
 h2 {
@@ -63,6 +61,7 @@ html, body {
 }
 
 .reduced-width {
+	margin-top:1.5em;
 	display:block;
 	max-width: 800px;
 	margin-right:auto;
@@ -157,6 +156,7 @@ html, body {
 }
 
 .contact {
+	margin-top:7em;
 	padding-bottom: 30px;
 }
 
