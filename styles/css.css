@@ -195,7 +195,8 @@ form#mc-embedded-subscribe-form {
 	font-family: 'Montserrat', sans-serif !important;
 	border-radius:5px;
 	font-size:1.1em !important;
-	white-space: normal !important;
+	white-space: nowrap !important;
+	overflow:hidden !important;
 }
 .mailchimp-form input[placeholder] { 
 	text-overflow: ellipsis !important; 
