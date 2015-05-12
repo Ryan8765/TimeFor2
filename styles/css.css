@@ -1,0 +1,192 @@
+/* Base Styles
+=====================================*/
+* {
+	line-height:1.3;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.2em;
+	line-height: 1.2;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.2em;
+	line-height: 1.2;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.7em;
+	font-weight:bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-weight:bold;
+	text-align:center;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight:bold;
+	text-align:center;
+}
+
+html, body {
+	height:100%;
+}
+
+/* Classes
+=====================================*/
+
+.friends {
+	text-align: right;
+	font-size: .8em;
+	clear:both;
+	color:black;;
+}
+
+.white {
+	color:white;
+}
+
+.reduced-width {
+	display:block;
+	max-width: 800px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.lower-section {
+	text-align:center;
+}
+
+.mailchimp-form {
+	max-width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.margin {
+	margin-top: 3em;
+}
+
+.background {
+	background-image: url(../images/background.jpg);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.icon {
+	font-size: 2em;
+	color:#5B5B5B;
+}
+
+.icon:hover {
+	color:#959292;
+}
+
+.copyright {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+.innerwrapper {
+	max-width:85%;
+	margin:0 auto;
+	position:relative;
+}
+
+.logo-section {
+	position:relative;
+}
+
+.blue-background {
+	background-color: #64bfe3;
+}
+
+.logo {
+	width:45%;
+	float:left;
+	text-align:center;
+}
+
+.logo img {
+	margin-top:6em;
+	width: 100%;
+}
+
+.tcycle {
+	max-width:45%;
+	float:left;
+}
+
+.tcycle img {
+	max-width:100%;
+}
+
+.social-media {
+	width:10%;
+	position:fixed;
+	right:40px;
+	top:20%;
+}
+
+.social-media ul {
+	float:right;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact {
+	padding-bottom: 30px;
+}
+
+
+/* Signup Form
+=====================================*/
+
+.mailchimp-form input {
+	font-family: 'Montserrat', sans-serif !important;
+	border-radius:5px;
+}
+
+input#mc-embedded-subscribe {
+	width:95% !important;
+	background-color: #56FE03 !important;
+	color:black !important;
+	border:2px solid white !important;
+	font-weight:bold;
+	margin-top: 10px !important;
+	margin-right:15px !important;
+}
+
+input#mc-embedded-subscribe:hover {
+	background-color: #A6F97D !important;
+	color:white !important;
+}
+
+div#mc_embed_signup {
+	background-color:#6DCFF6;
+	padding-top:20px;
+	padding-left:15px;
+	border-radius: 10px;
+}
