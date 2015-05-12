@@ -197,6 +197,16 @@ form#mc-embedded-subscribe-form {
 	font-size:1.1em !important;
 	white-space: normal !important;
 }
+.mailchimp-form input[placeholder] { 
+	text-overflow: ellipsis !important; 
+}
+::-moz-placeholder { 
+	text-overflow: ellipsis !important; 
+} /* firefox 19+ */
+
+.mailchimp-form input:-moz-placeholder { 
+	text-overflow: ellipsis !important; 
+}
 
 input#mc-embedded-subscribe {
 	width:95% !important;
