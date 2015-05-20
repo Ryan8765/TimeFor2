@@ -50,6 +50,16 @@ html, body {
 /* Classes
 =====================================*/
 
+.clock-logo {
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.clock-logo img {
+	max-width:100%;
+}
+
 .bold {
 	font-weight: 900;
 }
@@ -93,7 +103,7 @@ html, body {
 }
 
 .background {
-	background-image: url(../images/originals/background.png);
+	background-image: url(../images/background.jpg);
 	background-size: cover;
     background-repeat: no-repeat;
 }
@@ -188,8 +198,13 @@ html, body {
 /* Signup Form
 =====================================*/
 
+input#mc-embedded-subscribe {
+	padding-top: 3px !important;
+	height: 45px !important;
+}
+
 form#mc-embedded-subscribe-form {
-  padding-right: 10px !important;
+  padding-right: 8px !important;
 }
 
 .mailchimp-form input {
@@ -214,7 +229,7 @@ input#mc-embedded-subscribe {
 	width:95% !important;
 	background-color: #56FE03 !important;
 	color:black !important;
-	border:2px solid white !important;
+	border:3px solid white !important;
 	font-weight:bolder;
 	margin-top: 10px !important;
 	margin-right:15px !important;
@@ -284,6 +299,10 @@ div#mc_embed_signup {
 }
 
 @media (max-width: 680px) {
+	.clock-logo {
+		width:60%;
+	}
+
 	.logo {
 		width:95%;
 		margin-right:auto;
@@ -326,6 +345,14 @@ div#mc_embed_signup {
 		margin-left:auto;
 		float:none;
 		margin-top:2em;
+	}
+}
+
+@media (max-width: 400px) {
+	.clock-logo {
+		width:90%;
+		margin-top:1em;
+		margin-bottom:1em;
 	}
 }
 
